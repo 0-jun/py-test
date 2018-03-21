@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import sys
 
-import test
+import wheel_test
 
 py2 = sys.version_info[0] == 2
 py3 = sys.version_info[0] == 3
@@ -14,13 +14,13 @@ py3 = sys.version_info[0] == 3
 
 setup(
     
-    name ='test',
+    name ='wheel_test',
         
     version = test.__version__,
     
     description = 'test',
 	
-    long_description = 'test',
+    long_description = 'wheel_test',
 
     url = 'https://github.com/0-jun/py-test',
 	download_url     = 'https://github.com/0-jun/py-test',
