@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import sys
 
-import wheel_test
+import youngjun_test
 
 py2 = sys.version_info[0] == 2
 py3 = sys.version_info[0] == 3
@@ -14,13 +14,13 @@ py3 = sys.version_info[0] == 3
 
 setup(
     
-    name ='wheel_test',
+    name ='youngjun_test',
         
-    version = test.__version__,
+    version = youngjun_test.__version__,
     
-    description = 'test',
+    description = 'youngjun_test',
 	
-    long_description = 'wheel_test',
+    long_description = 'youngjun_test',
 
     url = 'https://github.com/0-jun/py-test',
 	download_url     = 'https://github.com/0-jun/py-test',
